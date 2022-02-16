@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(109, 149, 149);
+    font-family: 'Space Mono', monospace;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.container{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: white;
+}
+.first_container{
+    width: 50%;
+    padding: 20px;
+}
+.right_container{
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(17, 67, 17);
+}
+.tip{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.first_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.person{
+    color: rgba(255, 255, 255, 0.736);
+}
+
+.dollar{
+    color: rgb(26, 168, 168);
+    font-size: 30px;
+    font-weight: bold;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.second_line{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.person{
+    color: rgba(255, 255, 255, 0.736);
+}
+
+.dollar{
+    color: rgb(26, 168, 168);
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reset_button{
+    margin-top: 150px;
+    background-color: rgb(34, 132, 132);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(17, 67, 17);
+}
+.bill{
+    font-size: 12px;
+    color: rgb(159, 156, 156);
+}
+.amount_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(136, 163, 136, 0.326)
+}
+.dollar_sign{
+    color: rgb(17, 67, 17);
+}
+.value{
+    color: rgb(17, 67, 17);
+}
+.tip_buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_list{
+    width: 30%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(17, 67, 17);
+}
+.custom_button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.custom{
+    width: 30%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.743);
+}
